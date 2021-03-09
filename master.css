@@ -4,6 +4,8 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: lightgray;
+  border: 3px solid yellow;
 }
 a {
   text-decoration: none;
@@ -25,10 +27,16 @@ h2 {
   background-color: orange;
   padding: 10px;
   text-align: center;
+  height: 500px;
+}
+.head img {
+  height: 350px;
+  width: 60%;
 }
 .topnav {
   overflow: hidden;
   background-color: red;
+  font-size: 18pt;
 }
 .topnav a{
   float: left;
@@ -37,28 +45,34 @@ h2 {
   text-align: center;
   padding: 14px 16px;
 }
+.loaded {
+  color: yellow !important;
+  font-weight: bold;
+}
 .column {
   float: left;
   width: 25%;
   padding-right: 25px;
   padding-left: 10px;
-  background-color: lightgray;
 }
 .column.lside {
   width: 25%;
 }
 .column.lside ol {
-
+  font-size: 16pt;
 }
 .column.middle {
   width: 50%;
 }
-.positions li {
+.mainlist li {
   font-weight: bold;
   font-size: 16pt;
 }
 .column.rside {
   width: 25%;
+}
+.column.rside ul {
+  font-size: 18pt;
 }
 .row:after {
   content: "";
