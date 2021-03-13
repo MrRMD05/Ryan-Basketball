@@ -22,6 +22,7 @@ h1 {
 h2 {
   font-size: 25pt;
   text-align: center;
+  color: red;
 }
 .head {
   background-color: orange;
@@ -71,7 +72,7 @@ h2 {
 .column.rside {
   width: 25%;
 }
-.column.rside ul {
+.column.rside li {
   font-size: 18pt;
 }
 .row:after {
