@@ -7,12 +7,15 @@ body {
   background-color: lightgray;
   border: 3px solid yellow;
 }
+img {
+  border: 3px solid red;
+}
 a {
   text-decoration: none;
   color: black;
 }
 a:hover{
-  background-color: black;
+  background-color: #960808;
   color: white;
 }
 h1 {
@@ -22,17 +25,30 @@ h1 {
 h2 {
   font-size: 25pt;
   text-align: center;
-  color: red;
+  color: #960808;
+}
+h4 {
+  color: #c26700;
+}
+ul {
+  list-style-type: square;
+}
+ol li {
+  font-weight: bold;
+  font-size: 18pt;
+}
+iframe {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  line-height: 5;
 }
 .head {
   background-color: orange;
   padding: 10px;
   text-align: center;
-  height: 500px;
 }
 .head img {
-  height: 350px;
-  width: 60%;
+  height: 300px;
 }
 .topnav {
   overflow: hidden;
@@ -59,22 +75,42 @@ h2 {
 .column.lside {
   width: 25%;
 }
+.links {
+  line-height: 2;
+}
 .column.lside ol {
   font-size: 16pt;
+}
+.column.lside img {
+    width: 70%;
 }
 .column.middle {
   width: 50%;
 }
-.mainlist li {
-  font-weight: bold;
-  font-size: 16pt;
+.column.middle img {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .column.rside {
   width: 25%;
 }
-.column.rside li {
+.column.rside ul {
   font-size: 18pt;
+  border: solid 3px yellow;
 }
+.column.rside img {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 50px;
+}
+.webs {
+  line-height: 1.5;
+}
+
 .row:after {
   content: "";
   display: table;
