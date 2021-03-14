@@ -1,4 +1,4 @@
-#comment
+
 * {
   box-sizing: border-box;
 }
@@ -83,10 +83,10 @@ iframe {
   font-size: 16pt;
 }
 .column.lside img {
-    width: 70%;
+  width: 70%;
 }
 .column.middle {
-  width: 50%;
+  width: 45%;
 }
 .column.middle img {
   width: 40%;
