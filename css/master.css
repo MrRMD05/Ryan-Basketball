@@ -74,7 +74,7 @@ iframe {
   padding-left: 10px;
 }
 .column.lside {
-  width: 25%;
+  width: 20%;
 }
 .links {
   line-height: 2;
@@ -95,7 +95,7 @@ iframe {
   margin-right: auto;
 }
 .column.rside {
-  width: 25%;
+  width: 20%;
 }
 .column.rside ul {
   font-size: 18pt;
